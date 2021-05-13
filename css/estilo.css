@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;700&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+    color: rgb(7, 7, 7);
+}
+
+p {
+    font-size: 20px;
+    /*Tamaño de la fuente*/
+    margin-left: 25px;
+    /* espacio hacia la derecha*/
+}
+
+li {
+    list-style: none;
+    /*deshabilita los estilos que tiene pre echo el elemento*/
+    margin-right: 25px;
+    /* hace espacios hacia la derecha*/
+}
+
+ul {
+    display: flex;
+    /*hace que el contenedor sea flexible */
+}
+
+.menu {
+    display: flex;
+    /*hace que el contenedor sea flexible */
+    justify-content: space-between;
+    /* va hacia los costados*/
+    /*justify-content: space-around; va hacia los costados con un espaciado del lado derecho y izquierdo*/
+    align-items: center;
+    /*alinea los elementos, se le da al elemento contenedor para alinear los items internos */
+}
+
+a {
+    text-decoration: none;
+    /*Le saca la linnea de abajo*/
+    color: rgb(255, 255, 255);
+}
+
+.titular {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.titular h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+a {
+    font-size: 14px;
+    background: #5cb8ff;
+    padding: 20px 30px 20px 30px;
+    color: white;
+}
+
+header {
+    background: url(../img/img2.jpg);
+    background-size: cover;
+    height: 100vh;
+    /*proporcional al alto de la ventana*/
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+
+/*Seccion Sobre Mi*/
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+section {
+    border: 10px;
+    border-color: black;
+}
+
+.contenedor_sobreMi {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor_sobreMi img {
+    height: 400px;
+    width: 400px;
+}
+
+.contenedor_sobreMi_parrafo_boton {
+    width: 42%;
+}
+
+.contenedor_sobreMi_parrafo_boton p {
+    font-size: 23px;
+}
+
+.contenedor_sobreMi_parrafo_boton a {
+    display: inline-block;
+    margin-left: 40%;
+}
+
+.contenedor-servicio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.servicio {
+    width: 20%;
+    padding: 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.violeta {
+    background: #5055df;
+}
+
+.celeste {
+    background: #40a8fa;
+}
+
+.servicio h4 {
+    font-size: 30px;
+    margin: 0;
+    margin-left: 25px;
+}
+
+.servicio img {
+    float: right;
+}
+
+.servicio p {
+    font-size: 15px;
+}
